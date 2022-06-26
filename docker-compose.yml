@@ -1,0 +1,14 @@
+version: "3"
+services:
+  flask_hack:
+    container_name: web_asr_v1  
+    build: .
+      
+    command: gunicorn -w 2 -b 0.0.0.0:5000 --timeout 600 web_asr:app --reload
+    environment:
+        - FLASK_APP=web_asr.py
+        - FLASK_DEBUG=1
+        - PYTHONUNBUFFERED=TRUE
+    ports:
+        - '5000:5000'
+
