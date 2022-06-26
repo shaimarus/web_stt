@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<style>
+body {
+    
+    background: #c7b39b url("/static/key6.jpg");
+    color: #fff; /* Цвет текста */
+}
+
+.advantages-item {
+    font-size: 34px;
+    color: #070707;
+}
+.advantages-item2 {
+    font-size: 34px;
+    font-weight: 34px;
+    color: rgb(0, 0, 0);
+    background-color: RGB(252, 252, 252);
+    padding: 20px;
+    width: 100%;
+}
+</style>
+
+<p class="advantages-item">Сервис по распознаванию аудио файла в текст</p>
+
+
+
+
+
+
+<p></p>
+
+<html>
+   <body>
+      <form action = "/uploader" method = "POST"
+         enctype = "multipart/form-data">
+         <input class="btn btn-dark" type = "file" name = "file" />
+         <input class="btn btn-dark" type = "submit"/>
+      </form>   
+   </body>
+</html>
+
+
+<p></p>
+<p></p>
+
+<!--<form action="/" method = "post">
+<input type="submit" class="btn btn-danger" name="submit_button" value="Запустить распознование    ">
+</form>-->
+
+<p></p>
+
+<form method="POST" action="{{ url_for('stt') }}">
+  <select name="comp_select" class="btn btn-danger">
+	<option value="Not_selected">Выберите язык</option>
+	<option value="kaz">Казахский язык</option>
+	<option value="rus">Русский язык</option>
+	<option value="eng">Английский язык</option>
+	<option value="ar">Арабский язык</option>
+	<option value="es">Испанский язык</option>
+	<option value="it">Итальянский язык</option>			
+	<option value="cn">Китайский язык</option>
+	<option value="de">Немецкий язык</option>
+	<option value="tr">Турецкий язык</option>		
+	<option value="uk">Украйнский язык</option>
+	<option value="fr">Французский язык</option>	
+	<option value="ja">Японский язык</option>
+
+  </select>
+
+  <button type="submit" class="btn btn-danger">Запустить распознование    </button>
+</form>
+
+
+
+<p class="advantages-item2"> {{ password }} </p> 
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" rel="stylesheet">
+
+
+
+
+
+
+</body>
+</html>
+
+
+</html>
