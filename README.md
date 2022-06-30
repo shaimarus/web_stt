@@ -1,6 +1,6 @@
 # Speech-to-text web service based on Vosk (https://alphacephei.com/)
 
-previously you need install next pretrained language models:
+You need git clone this repository and download next pretrained language models:
 
 wget https://alphacephei.com/vosk/models/vosk-model-kz-0.15.zip https://alphacephei.com/vosk/models/vosk-model-small-ru-0.22.zip https://alphacephei.com/vosk/models/vosk-model-small-en-us-zamia-0.5.zip https://alphacephei.com/vosk/models/vosk-model-small-cn-0.22.zip https://alphacephei.com/vosk/models/vosk-model-small-uk-v3-small.zip https://alphacephei.com/vosk/models/vosk-model-small-fr-0.22.zip https://alphacephei.com/vosk/models/vosk-model-small-de-0.15.zip https://alphacephei.com/vosk/models/vosk-model-small-tr-0.3.zip https://alphacephei.com/vosk/models/vosk-model-small-it-0.4.zip  https://alphacephei.com/vosk/models/vosk-model-small-es-0.22.zip https://alphacephei.com/vosk/models/vosk-model-small-ja-0.22.zip https://alphacephei.com/vosk/models/vosk-model-ar-mgb2-0.4.zip
 
