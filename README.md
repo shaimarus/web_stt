@@ -10,4 +10,5 @@ docker-compose up --build -d
 And then service will be available at
 http://localhost:5000/
 
-
+![Image alt](https://github.com/shaimarus/web_stt/blob/main/pict1.jpg)
+![Image alt](https://github.com/shaimarus/web_stt/blob/main/pict2.jpg)
